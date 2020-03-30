@@ -1,10 +1,14 @@
 robots.txt
 flag.txt
 test.txt
+hint.txt
 admin.php
 user.php
 index.php
 secret.php
+hint.php
+next.php
+upload.php
 1.php
 phpinfo.php
 test.php
@@ -37,6 +41,9 @@ upload/
 uploads/
 public/
 README.md
-
+index.html
+javascript/
+css/
+/phpmyadmin/
 
 
