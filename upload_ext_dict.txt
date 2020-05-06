@@ -1,0 +1,25 @@
+.php
+.PhP
+.pphphp
+.pphphP
+.htaccess
+.php2
+.php3
+.php4
+.php5
+.php/.
+.phps
+.php.
+.php 
+.php. .
+xx/../1.php
+.php::$DATA
+.phtml
+.pht
+.php.rar
+.jpg
+.png
+.gif
+.phar
+.user.ini
+.abcdefg
