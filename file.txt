@@ -19,6 +19,7 @@ index.php
 secret.php
 secr4t.php
 hint.php
+hints.php
 h1nt.php
 next.php
 upload.php
@@ -91,6 +92,10 @@ css/
 phpmyadmin/
 phpMyAdmin/
 admin/
+admin/admin.php
+admin/login.php
+admin/index.php
+admin/index.html
 log/
 logs/
 index/
@@ -128,5 +133,10 @@ include/config.inc.php
 install/
 news.php
 sql/
-
-
+api.js
+app.js
+package.json
+controller/
+controller/api.js
+controllers/
+controllers/api.js
