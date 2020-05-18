@@ -1,0 +1,12 @@
+X-Forwarded-For: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+X-Real-IP: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+Client-IP: 127.0.0.1
+X-Forwarded-For: localhost
+X-Originating-IP: localhost
+X-Real-IP: localhost
+X-Remote-IP: localhost
+X-Remote-Addr: localhost
+Client-IP: localhost
